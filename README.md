@@ -6,6 +6,12 @@ npm create astro@latest -- --template minimal
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
+### ASTRO NOTES
+
+## JS Use
+- JS written in frontmatter is run at build-time
+- JS in `<script>` tags at the end of a file is run client-side, including the `import`ed ones. 
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
