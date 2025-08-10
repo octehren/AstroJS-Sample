@@ -11,6 +11,13 @@
   background-color: #ff9776;
 }
 
+/* hamburger starts hidden*/
 .hamburger {
   display: none;
+}
+
+
+/* expanded class shows nav bar */
+.expanded {
+  display: unset;
 }
