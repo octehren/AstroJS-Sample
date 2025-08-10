@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# SPECIFIC
+www.econsolidaria.org
+digest.txt
