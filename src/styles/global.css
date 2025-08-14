@@ -20,6 +20,9 @@ h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
- /* imports here / */
-@import "nav.css";
-@import "hamburger.css";
+
+footer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
