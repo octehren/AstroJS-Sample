@@ -6,3 +6,6 @@ html.dark {
 .dark .nav-links a {
   color: #fff;
 }
+
+.dark .sun { fill: transparent; }
+.dark .moon { fill: white; }
