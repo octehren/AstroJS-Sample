@@ -1,9 +1,16 @@
 ---
+import ThemeToggleIcon from '../components/ThemeToggleIcon.astro';
 import Navigation from './Navigation.astro';
 import '../styles/components/nav.css';
 ---
 <header>
   <nav>
+    <div class="hamburger">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+    <ThemeToggleIcon />
     <Navigation />
   </nav>
 </header>
