@@ -11,6 +11,7 @@ npm create astro@latest -- --template minimal
 ## JS Use
 - JS written in frontmatter is run at build-time
 - JS in `<script>` tags at the end of a file is run client-side, including the `import`ed ones. 
+- Islands are added with client directives, such as "client:load" (runs when page is loaded) and "client:visible" (runs when content is visible).
 
 ## 🚀 Project Structure
 
