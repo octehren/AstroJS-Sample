@@ -1,7 +1,6 @@
 ---
 import PostTagsSection from '../../components/PostTagsSection.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import '../../styles/tags.css';
 
 const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
 const tags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
