@@ -2,6 +2,8 @@
 
 DOCS: https://docs.astro.build/en/reference/configuration-reference/
 
+FINAL TUTORIAL CODE: https://github.com/withastro/blog-tutorial-demo
+
 ```sh
 npm create astro@latest -- --template minimal
 ```
