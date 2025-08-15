@@ -26,3 +26,4 @@ pnpm-debug.log*
 # SPECIFIC
 www.econsolidaria.org
 digest.txt
+.webui_secret_key
