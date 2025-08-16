@@ -17,6 +17,12 @@ npm create astro@latest -- --template minimal
 - JS in `<script>` tags at the end of a file is run client-side, including the `import`ed ones. 
 - Islands are added with client directives, such as "client:load" (runs when page is loaded) and "client:visible" (runs when content is visible).
 
+## COLLECTIONS
+- Collections are better in general since they define a schema for content and also optimize speed.
+- Instead of simple markdown you have to define a content schema, which will contain the folder in which the content will be stored.
+- These can be markdown but they won't be automatically turned into pages with astro's file-based routing.
+- See branch history for `01-make-posts-content-collection` for more details
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
