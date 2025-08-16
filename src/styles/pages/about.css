@@ -9,3 +9,7 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.dark .skill {
+  color: rgb(0, 109, 128);
+}
