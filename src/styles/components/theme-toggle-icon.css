@@ -1,7 +1,8 @@
 
 #themeToggle {
-  border: 0;
   background: none;
+  border: 0;
+  cursor: pointer;
 }
 
 .sun { fill: black; }
