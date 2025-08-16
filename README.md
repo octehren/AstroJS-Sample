@@ -19,8 +19,10 @@ npm create astro@latest -- --template minimal
 
 ## COLLECTIONS
 - Collections are better in general since they define a schema for content and also optimize speed.
-- Instead of simple markdown you have to define a content schema, which will contain the folder in which the content will be stored.
+- Instead of simple markdown you have to define a content schema.
 - These can be markdown but they won't be automatically turned into pages with astro's file-based routing.
+- Instead, the collection name is declared on schema alongside specific directory with content files. An astro provided  function like `getCollection` is used to fetch content.
+- Note that you will access each content item through the `data` property.
 - See branch history for `01-make-posts-content-collection` for more details
 
 ## 🚀 Project Structure
