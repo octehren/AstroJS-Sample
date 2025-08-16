@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
+import '../styles/pages/about.css';
+
 const pageTitle = "IMMA RN";
 const identity = {
   firstName: "PANIKAHHHHH",
@@ -12,12 +14,8 @@ const identity = {
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 
 const happy = true;
-const finished = false;
+const finished = true;
 const goal = 3;
-// css
-const skillColor = "navy";
-const fontWeight = "bold";
-const textCase = "uppercase";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -39,16 +37,4 @@ const textCase = "uppercase";
   <ul>
     {skills.map((skill) => <li class="skill">{skill}</li>)}
   </ul>
-
-  <style define:vars={{skillColor, fontWeight, textCase}}>
-    h1 {
-      color: purple;
-      font-size: 4rem;
-    }
-    .skill {
-      color: var(--skillColor);
-      font-weight: var(--fontWeight);
-      text-transform: var(--textCase);
-    }
-  </style>
 </BaseLayout>
