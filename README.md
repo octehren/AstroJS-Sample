@@ -23,6 +23,7 @@ npm create astro@latest -- --template minimal
 - These can be markdown but they won't be automatically turned into pages with astro's file-based routing.
 - Instead, the collection name is declared on schema alongside specific directory with content files. An astro provided  function like `getCollection` is used to fetch content.
 - Note that you will access each content item through the `data` property.
+- Another advantage of collections is that you can manipulate frontmatter data as its own data type rather than just strings (use data-formatting functions, for example).
 - See branch history for `01-make-posts-content-collection` for more details
 
 ## 🚀 Project Structure
