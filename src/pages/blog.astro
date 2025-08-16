@@ -10,6 +10,6 @@ const pageTitle = "STORY OF DA STRUGGAH...";
   <h1>My Astro Learning Blog</h1>
   <p>This is where I will post about my journey learning Astro.</p>
   <ul>
-    {allPosts.map((post: any) => <BlogPostLink url={post.id} title={post.data.title} />)}
+    {allPosts.map((post: any) => <BlogPostLink url={`/posts/${post.id}`} title={post.data.title} />)}
   </ul>
 </BaseLayout>
