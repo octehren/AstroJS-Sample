@@ -6,4 +6,7 @@
 }
 
 .sun { fill: black; }
+.dark .sun { fill: transparent; }
+
 .moon { fill: transparent; }
+.dark .moon { fill: white; }
